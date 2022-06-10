@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "base58",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pengpengliu/Base58.git",
+      "state" : {
+        "revision" : "8f69c52c585733f0aa4c342a86beecdd7606fd82",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "bip32",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pengpengliu/BIP32",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6cc7f365e597a6ac5318e938972cbccf45627878"
+      }
+    },
+    {
+      "identity" : "bip39",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pengpengliu/BIP39",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e79bd90275e50643cf8f97208ffa536d0def3ec7"
+      }
+    },
+    {
+      "identity" : "crypto101",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pengpengliu/Crypto101",
+      "state" : {
+        "revision" : "e98df5f5548ff6d8871fbd9dfc8d55cf5331b916",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift",
+      "state" : {
+        "revision" : "12f2389aca4a07e0dd54c86ec23d0721ed88b8db",
+        "version" : "1.4.3"
+      }
+    },
+    {
+      "identity" : "secp256k1.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Boilertalk/secp256k1.swift.git",
+      "state" : {
+        "revision" : "45e458ec3be46cf0a6eb68bc947f797852dc65d8",
+        "version" : "0.1.6"
+      }
+    }
+  ],
+  "version" : 2
+}
