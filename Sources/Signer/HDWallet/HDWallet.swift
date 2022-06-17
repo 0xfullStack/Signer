@@ -32,7 +32,13 @@ public struct HDWallet: Hashable, Equatable {
         let mnemonic = try Mnemonic(phrase: phrase)
         self.phrase = mnemonic.phrase
     }
-    
+}
+
+extension HDWallet: Signer {
+    public func deriveOwnerKeyPair() -> KeyPair {
+        return deriveKeyPair(path: "m/44'/60'/0'/0")
+    }
+
     public func deriveKeyPair(path: String, index: UInt32 = 0) -> KeyPair {
         let child = try! hdKey.derive(path: path)!.derive(index: index)!
         return KeyPair(type: .ecdsa, public: child.publicKey, private: child.privateKey!)

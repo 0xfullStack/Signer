@@ -1,6 +1,5 @@
-public struct Signer {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
-    }
+public protocol Signer {
+    func deriveOwnerKeyPair() -> KeyPair
+    func deriveKeyPair(path: String, index: UInt32) -> KeyPair
 }
