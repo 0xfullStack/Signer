@@ -8,6 +8,6 @@ final class SignerTests: XCTestCase {
         // results.
         
         let signer: Signer = HDWallet()
-        signer.deriveKeyPair(path: "", index: "")
+        signer.deriveKeyPair(path: "", index: .zero)
     }
 }
