@@ -15,7 +15,7 @@
       "location" : "https://github.com/pengpengliu/BIP32",
       "state" : {
         "branch" : "master",
-        "revision" : "6cc7f365e597a6ac5318e938972cbccf45627878"
+        "revision" : "b0490cd47772550c1a636874584292b246b576d6"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pengpengliu/Crypto101",
       "state" : {
-        "revision" : "e98df5f5548ff6d8871fbd9dfc8d55cf5331b916",
-        "version" : "0.4.0"
+        "branch" : "master",
+        "revision" : "e025a1162007f32e46488947e923ae2494106e02"
       }
     },
     {
